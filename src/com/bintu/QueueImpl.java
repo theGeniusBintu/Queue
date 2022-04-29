@@ -1,12 +1,13 @@
 package com.bintu;
 
 import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.List;
 
 public class QueueImpl implements Queue {
 
     Integer front;
-    List<Integer> queue = new ArrayList<>() {
+    LinkedList <Integer> queue = new LinkedList<>() {
     };
 
 
